@@ -21,4 +21,4 @@ $$ \frac{e^{x} + e^{-x}}{2} = ch(x) $$
 
 ## Схема алгоритма
 
-(/diagram/flowchart.svg)
+![Схема алгоритма](/diagram/flowchart.svg)
