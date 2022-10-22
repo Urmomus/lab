@@ -8,27 +8,27 @@ int main() // Начало программы
     setlocale(LC_ALL, "rus"); // Подключение русского языка
 
     int n; // Число итераций
-    int doubleFactorial; // Текущее значение удвоенного факториала
-    double difference; // Разность текущей и точной сумм
-    double currentSum; // Сумма
-    double exactSum; // Точное значение суммы
-    double x; // Переменная
-    double eps; // Точность
-    double numerator; // Числитель
+    int doubleFactorial;      // Текущее значение удвоенного факториала
+    double difference;        // Разность текущей и точной сумм
+    double currentSum;        // Сумма
+    double exactSum;          // Точное значение суммы
+    double x;                 // Переменная
+    double eps;               // Точность
+    double numerator;         // Числитель
 
     cout << "Введите точность: ";
-    cin >> eps; // Ввод точности
-    cout << eps << endl; // Эхо-печать
+    cin >> eps;               // Ввод точности
+    cout << eps << endl;      // Эхо-печать
 
-    if (eps <= 0) // Валидация входящих данных
+    if (eps <= 0)             // Валидация входящих данных
     {
         cout << "Заданная точность должна быть больше нуля" << endl; // Вывод сообщения об ошибке
         return 1; // Завершение работы программы со статусом 1 в случае некорректности введённых данных
     }
 
     cout << "Введите X: ";
-    cin >> x; // Ввод переменной x
-    cout << x << endl; // Эхо-печать
+    cin >> x;                 // Ввод переменной x
+    cout << x << endl;        // Эхо-печать
 
     // Инициализация переменных
     n = 1;
@@ -36,7 +36,7 @@ int main() // Начало программы
     currentSum = 1;
     numerator = 1;
 
-    exactSum = (exp(x) + exp(-x)) / 2; // Подсчёт точной суммы
+    exactSum = (exp(x) + exp(-x)) / 2;       // Подсчёт точной суммы
     difference = abs(currentSum - exactSum); // Подсчёт разности
 
     while (difference > eps) // Начало цикла
