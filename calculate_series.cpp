@@ -1,3 +1,4 @@
+// Подключение библиотек
 #include <iostream>
 #include <cmath>
 using namespace std;
