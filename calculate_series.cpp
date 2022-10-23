@@ -8,7 +8,7 @@ int main() // Начало программы
     setlocale(LC_ALL, "rus"); // Подключение русского языка
 
     int n;                    // Число итераций
-    int doubleFactorial;      // Текущее значение удвоенного факториала
+    unsigned long long doubleFactorial; // Текущее значение удвоенного факториала
     double difference;        // Разность текущей и точной сумм
     double currentSum;        // Сумма
     double exactSum;          // Точное значение суммы
