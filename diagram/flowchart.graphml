@@ -143,7 +143,6 @@ Eps должно быть
       </data>
     </node>
     <node id="n11">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="135.80000000000007" width="190.07883817427376" x="347.0455015477838" y="422.701171875"/>
@@ -152,6 +151,7 @@ Eps должно быть
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="164.81640625" x="12.631215962136878" xml:space="preserve" y="58.549414062500034">Инициализация переменных<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
@@ -211,19 +211,20 @@ Eps должно быть
     <edge id="e5" source="n0" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="67.89624023437511" tx="-89.5" ty="0.0">
+          <y:Path sx="0.0" sy="67.89624023437511" tx="0.0" ty="-35.50244140625">
             <y:Point x="168.79246031746032" y="915.9472299662866"/>
             <y:Point x="0.0" y="915.9472299662866"/>
-            <y:Point x="0.0" y="656.401171875"/>
+            <y:Point x="0.0" y="596.9730544066392"/>
+            <y:Point x="168.79246031746032" y="596.9730544066392"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-2.9025288390981814" y="20.300513587296564">
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-2.902528839098153" y="20.300513587296564">
             <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="0.9025239465975728" distanceToCenter="true" position="right" ratio="0.8130093997451423" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="0.9025239465975413" distanceToCenter="true" position="right" ratio="0.8130093997451431" segment="0"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -264,7 +265,6 @@ Eps должно быть
       </data>
     </edge>
     <edge id="e9" source="n10" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="35.5" tx="0.0" ty="-67.90000000000003"/>
@@ -275,7 +275,6 @@ Eps должно быть
       </data>
     </edge>
     <edge id="e10" source="n4" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="67.90000000000003" tx="0.0" ty="-35.5"/>
